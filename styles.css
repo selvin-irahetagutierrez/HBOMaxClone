@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff
+  } 
+  body{
+    font-family: 'Gilroy-Regular', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(0, 0, 0);
+    
+  }
+  section{
+    min-height: 82vh;
+  }
+  
+  .container {
+    background-image: url(https://hbomax-images.warnermediacdn.com/2022-12/hp-hero-the-last-of-us-jan-mobile.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center top 9em;
+  }
+  .hboLogo{
+    width: 25%;
+    height:auto;
+    position: absolute;
+    top:0;
+    padding: 20px
+}  
+  .signupBtn{
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 1em 1em 0.5em;
+  }
+.button-1{
+    font-size: .66em;
+    background-color: rgb(181, 53, 246);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    overflow: hidden;
+    transition: all 0.5s ease 0s !important;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.55em 1.5em 0.5em;
+    text-transform: uppercase;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+.button-1:hover,
+.button-1:focus{
+    background-color: #fff;
+    color:black;
+}
+.signonBtn{
+    font-size: .66em;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    overflow: hidden;
+    transition: all 0.5s ease 0s !important;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.55em 1.5em 0.5em;
+    text-transform: uppercase;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.mainTitle{
+    margin:auto;
+    text-align: center;
+    font-size: 1.2em;
+    width:20em;
+    padding-top: 4.6em;
+}
+.subtitle{
+    margin:auto;
+    text-align: center;
+    padding-top: 3%;
+}
+.mainBtn{
+    font-size: 1em;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    overflow: hidden;
+    transition: all 0.5s ease 0s !important;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.55em 1.5em 0.5em;
+    text-transform: uppercase;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    letter-spacing: .1em;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    margin-top: 4%;
+}
+.TLOUlogo{
+    width: 50%;
+    display: flex;
+    margin:auto;
+    padding-top:28.3em;
+}
+.undertitle{
+    color:rgb(157, 157, 157);
+    text-transform: uppercase;
+    text-align: center;
+    padding: .7em
+}
